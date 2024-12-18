@@ -1,6 +1,9 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import './App.css';
+import { AddIncome } from './components/AddIncome';
+import { AddExpense } from './components/AddExpense';
+import { AddInvestment } from './components/AddInvestment';
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
           >
             Adicionar Transação
           </Button>
+          <AddIncome />
+          <AddExpense />
+          <AddInvestment />
         </section>
       </main>
 
